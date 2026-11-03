@@ -1,2 +1,12 @@
-# krone-dev.github.io
-this is the site.
+# krone.dev Blog
+
+## osu!multitouch announcement
+Heya! i am Aidenonlinux and i am making a better version of osu!stream.
+Planning to make:
+- a YUGEN like skin
+- custom beatmap support
+- working leaderboards + login (like the old days)
+
+### You can expect this being fully released about in a few months!
+
+## Made by Aidenonlinux from krone.dev
