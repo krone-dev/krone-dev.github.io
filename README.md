@@ -9,4 +9,4 @@ Planning to make:
 
 ### You can expect this being fully released about in a few months!
 
-## Made by Aidenonlinux from krone.dev
+## © 2026 krone.dev | Made by Aidenonlinux from krone.dev
