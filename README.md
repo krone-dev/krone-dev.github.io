@@ -1,4 +1,4 @@
-# krone.dev Blog
+# 👑 krone.dev Blog
 
 ## osu!multitouch announcement
 Heya! i am Aidenonlinux and i am making a better version of osu!stream.
