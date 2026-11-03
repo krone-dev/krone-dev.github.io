@@ -1,3 +1,5 @@
+<title>krone.dev</title>
+
 # 👑 krone.dev Blog
 
 ## osu!multitouch announcement
