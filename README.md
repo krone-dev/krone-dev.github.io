@@ -2,6 +2,9 @@
 
 # 👑 krone.dev Blog
 
+## a somewhat smaller update
+I saw that i can link custom servers via changing some code. So you know what, i am making a custom server checkbox (planning to ask something like the server 727 for a working osu!stream leaderboard)
+
 ## just a little update /-/ Nov 4 2026
 So I recently downloaded a osu!stream pc port somewhere on GitHub, and experimented with the audio files. (i replaced the intro and main theme with the files from osu!(stable))
 So there is going to be custom music in osu!multitouch
