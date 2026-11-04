@@ -2,7 +2,7 @@
 
 # 👑 krone.dev Blog
 
-## osu!multitouch announcement
+## osu!multitouch announcement /-/ Nov 3 2026
 Heya! i am Aidenonlinux and i am making a better version of osu!stream.
 Planning to make:
 - a YUGEN like skin
