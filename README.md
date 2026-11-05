@@ -4,7 +4,8 @@
 
 >[!NOTE]
 >Welcome to the krone.dev blog!
-> ~ Aidenonlinux & kerimvzvz
+>
+>~ Aidenonlinux & kerimvzvz
 
 ## new member! /-/ Nov 5 2026
 Welcome [kerimvzvz](https://github.com/kerimvzvz)!
