@@ -2,7 +2,11 @@
 
 # 👑 krone.dev Blog
 
-## a somewhat smaller update
+## new member! /-/ Nov 5 2026
+Welcome [kerimvzvz](https://github.com/kerimvzvz)!
+(friend of mine)
+
+## a somewhat smaller update /-/ Nov 4 2026
 I saw that i can link custom servers via changing some code. So you know what, i am making a custom server checkbox (planning to ask something like the server 727 for a working osu!stream leaderboard)
 
 ## just a little update /-/ Nov 4 2026
