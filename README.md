@@ -2,6 +2,10 @@
 
 # 👑 krone.dev Blog
 
+>[!NOTE]
+>Welcome to the krone.dev blog!
+>- Aidenonlinux & kerimvzvz
+
 ## new member! /-/ Nov 5 2026
 Welcome [kerimvzvz](https://github.com/kerimvzvz)!
 (friend of mine)
