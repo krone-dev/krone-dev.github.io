@@ -1,5 +1,7 @@
 <title>krone.dev</title>
 
+<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/favicon.jpg">
+
 # 👑 krone.dev Blog
 
 >[!NOTE]
