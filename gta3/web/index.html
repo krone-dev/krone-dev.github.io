@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Grand Text Autogenerator</title>
+  <style>
+    @font-face {
+      font-family: 'Pricedown';
+      src: url('./Pricedown BL.otf') format('opentype');
+    }
+    body { font-family: sans-serif; background: #1e1e1e; color: white; text-align: center; padding: 30px; }
+    input, button { padding: 10px; font-size: 16px; margin: 5px; border-radius: 5px; border: none; }
+    button { background: #28a745; color: white; cursor: pointer; font-weight: bold; }
+    canvas { display: block; margin: 20px auto; border: 1px dashed #555; max-width: 100%; }
+  </style>
+</head>
+<body>
+  <h2>GTA (Grand Text Autogenerator)</h2>
+  <input type="text" id="tekst" value="Type here!" oninput="teken()">
+  <input type="color" id="kleur" value="#ffffff" onchange="teken()">
+  <button onclick="download()">Download PNG</button>
+  <canvas id="canvas" width="900" height="250"></canvas>
+
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+    function teken() {
+      const tekst = document.getElementById('tekst').value;
+      const kleur = document.getElementById('kleur').value;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      ctx.font = "110px 'Pricedown', Impact, sans-serif";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.lineJoin = "round";
+
+      // Zwarte GTA-rand
+      ctx.lineWidth = 18;
+      ctx.strokeStyle = "#000000";
+      ctx.strokeText(tekst, canvas.width / 2, canvas.height / 2);
+
+      // Binnenkleur
+      ctx.fillStyle = kleur;
+      ctx.fillText(tekst, canvas.width / 2, canvas.height / 2);
+    }
+
+    function download() {
+      const link = document.createElement('a');
+      link.download = 'gta-yourownlogo.png';
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    }
+
+    document.fonts.ready.then(teken);
+  </script>
+</body>
+</html>
